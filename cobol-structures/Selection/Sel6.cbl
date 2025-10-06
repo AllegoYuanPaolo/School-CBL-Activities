@@ -27,9 +27,9 @@
            compute ave = (prelim + midterm + finals) / 3
            move ave to dispAve
 
-           display "Average: " dispAve
-
+          
            display "______________"
+           display "Average: " dispAve
            display "Your grade is: " with no advancing
            if ave >= 97 and ave <=100
                display "1.0"
@@ -57,3 +57,4 @@
 
 
        STOP RUN.
+
