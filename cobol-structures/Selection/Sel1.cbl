@@ -33,6 +33,6 @@
                    display "You pass!"
            else 
                display "You fail"
-           end-if
+           end-if.
        
        STOP RUN.
