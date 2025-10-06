@@ -36,12 +36,10 @@
                 end-if.
                    
                   
-
-                   perform until pos = 0
-                       move bi(pos:1) to revBi(revCtr:1)
-                       subtract 1 from pos
-                       add 1 to revCtr
-                   end-perform
+                   move function reverse(bi) to revBi
+                   move function trim(revBi) to revBi
+                   display "Binary: " revBi
 
                    display "Binary: " revBi
        stop run.
+
