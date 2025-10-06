@@ -32,7 +32,7 @@
                      move num2 to disp
               else 
                    move num2 to disp
-              end-if
+              end-if.
 
               display "The smalled number is: " disp
            stop run.
